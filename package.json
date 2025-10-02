@@ -6,12 +6,12 @@
   "author": "Your Name <you@example.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourname/plain-redux-widget-lib.git"
+    "url": "https://github.com/seerviram/test-plain-redux-widget-lib/tree/master"
   },
   "bugs": {
-    "url": "https://github.com/yourname/plain-redux-widget-lib/issues"
+    "url": "https://github.com/seerviram/test-plain-redux-widget-lib/issues"
   },
-  "homepage": "https://github.com/yourname/plain-redux-widget-lib#readme",
+  "homepage": "https://github.com/seerviram/test-plain-redux-widget-lib#readme",
   "keywords": [
     "react",
     "redux",
