@@ -1,4 +1,4 @@
-# @yourname/plain-redux-widget-lib
+# test-plain-redux-widget-lib
 
 A tiny component library built for **React 18.0.0**, **react-redux 8.1.1**, and **redux 4.2.1**.  
 **No Redux Toolkit**, just plain Redux. Uses **inline CSS** (no CSS Modules).
@@ -6,7 +6,7 @@ A tiny component library built for **React 18.0.0**, **react-redux 8.1.1**, and 
 ## Install
 
 ```bash
-npm install @yourname/plain-redux-widget-lib
+npm install test-plain-redux-widget-lib
 # ensure peer versions (exact):
 npm install react@18.0.0 react-dom@18.0.0 react-redux@8.1.1 redux@4.2.1
 # optional: if you want to use the async thunk provided
@@ -33,7 +33,7 @@ import {
   addItem,
   fetchWidgetDataThunk,
   InlineChart
-} from '@yourname/plain-redux-widget-lib';
+} from 'test-plain-redux-widget-lib';
 
 const store = createStore(
   combineReducers({ widget: widgetReducer }),
