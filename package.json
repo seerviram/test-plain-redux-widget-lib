@@ -1,0 +1,57 @@
+{
+  "name": "test-plain-redux-widget-lib",
+  "version": "1.0.0",
+  "description": "React 18.0.0 component library using plain Redux 4.2.1 and react-redux 8.1.1, with inline CSS (no RTK).",
+  "license": "MIT",
+  "author": "Your Name <you@example.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourname/plain-redux-widget-lib.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourname/plain-redux-widget-lib/issues"
+  },
+  "homepage": "https://github.com/yourname/plain-redux-widget-lib#readme",
+  "keywords": [
+    "react",
+    "redux",
+    "react-redux",
+    "widget",
+    "component",
+    "inline-styles",
+    "no-rtk"
+  ],
+  "sideEffects": false,
+  "type": "module",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsup src/index.js --format esm,cjs --clean",
+    "dev": "tsup src/index.js --format esm,cjs --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "react-redux": "8.1.1",
+    "redux": "4.2.1"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.1",
+    "typescript": "^5.9.3"
+  }
+}
